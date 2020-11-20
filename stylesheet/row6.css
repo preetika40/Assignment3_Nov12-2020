@@ -1,0 +1,136 @@
+.row6{
+    max-width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row6-col1{
+    position:relative;
+    flex:49%;
+    max-width:49%;
+    height:225px;
+}
+
+.row6-col2{
+    position:relative;
+    flex:51%;
+    max-width:51%;
+    height:225px;
+    color: #FEFEFE;
+    background-color: #3D3D3D;
+}
+
+.row6-title{
+    position:absolute;
+    top:48px;
+    left:3.5%;
+    margin:0;
+    font-size:1.65vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row6-col2 span{
+    position:absolute;
+    top:92px;
+    left:3.5%;
+    width:8.2%;
+    border:1px solid #B9B9B9;
+}
+
+.row6-vertical-line{
+    position: absolute;
+    top:92px;
+    left:15.2%;
+    height:55px;
+    border:1px solid #9A9A9A;
+}
+
+.row6-circle1{
+    position: absolute;
+    top:92px;
+    left:14.9%;
+    height:7px;
+    width:7px;
+    border-radius: 100%;
+    background-color: #2AB6A9;
+}
+
+.row6-horizontal-line1{
+    position: absolute;
+    top:95px;
+    left:16%;
+    width:20px;
+    border:1px solid #9A9A9A;
+}
+
+.row6-text1{
+    position: absolute;
+    margin: 0;
+    top:90px;
+    left:19.6%;
+    color:#D7D7D7;
+    font-size:0.65em;
+}
+
+.row6-circle2{
+    position: absolute;
+    top:116px;
+    left:14.9%;
+    height:7px;
+    width:7px;
+    border-radius: 100%;
+    background-color: #2AB6A9;
+}
+
+.row6-horizontal-line2{
+    position: absolute;
+    top:119px;
+    left:16%;
+    width:20px;
+    border:1px solid #9A9A9A;
+}
+
+.row6-text2{
+    position: absolute;
+    margin: 0;
+    top:113px;
+    left:19.6%;
+    color:#D7D7D7;
+    font-size:0.65em;
+}
+
+.row6-circle3{
+    position: absolute;
+    top:140px;
+    left:14.9%;
+    height:7px;
+    width:7px;
+    border-radius: 100%;
+    background-color: #2AB6A9;
+}
+
+.row6-horizontal-line3{
+    position: absolute;
+    top:143px;
+    left:16%;
+    width:20px;
+    border:1px solid #9A9A9A;
+}
+
+.row6-text3{
+    position: absolute;
+    margin: 0;
+    top:137px;
+    left:19.6%;
+    color:#D7D7D7;
+    font-size:0.65em;
+}
+
+.row6-more{
+    position:absolute;
+    top:150px;
+    left:15%;
+    font-size:0.7em;
+    font-weight: bold;
+} 

@@ -1,0 +1,103 @@
+.row5{
+    height:255px;
+    max-width:100%;
+    position: relative;
+    background-color: #17A599;
+}
+
+.feedback{
+    position: absolute;
+    top:57px;
+    left:20%;
+    width:80%;
+    height:100%;
+    display:none;
+}
+
+.row5-line1{
+    position: absolute;
+    top:7px;
+    left: 1.85%;
+    width:33.7%;
+    border:1px solid  #FEFEFE;
+}
+
+.row5-comma1{
+    position: absolute;
+    left: 38.2%;
+}
+
+.row5-line2{
+    position: absolute;
+    top:7px;
+    left:43.5%;
+    width:33.7%;
+    border:1px solid  #FEFEFE;
+}
+
+.comment{
+    position: absolute;
+    top:45px;
+    margin:0;
+    font-size:1.65vw;
+    color: #FEFEFE;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row5-line3{
+    position: absolute;
+    top:130px;
+    left:29.5%;
+    width:6%;
+    border:1px solid  #FEFEFE;
+}
+
+.client-name{
+    position: absolute;
+    top:120px;
+    left:37%;
+    margin:0;
+    font-size:0.95vw;
+    color: #FEFEFE;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row5-line4{
+    position: absolute;
+    top:130px;
+    left:46.5%;
+    width:6%;
+    border:1px solid  #FEFEFE;
+}
+
+.previous-btn{
+    position:absolute;
+    top:50%;
+    left:5%;
+    font-size: 1.5em;
+    color:#FEFEFE;
+}
+
+.next-btn{
+    position:absolute;
+    top:50%;
+    left:95%;
+    color:#FEFEFE;
+    font-size: 1.5em;
+}
+
+.previous-btn:hover, .next-btn:hover {
+    cursor: pointer;
+    color:black;
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display:none;
+}

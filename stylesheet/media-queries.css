@@ -1,0 +1,96 @@
+@media only screen and  (max-width: 1100px) {
+    .row2-more{
+        position:absolute;
+        top:88%;
+    }
+
+}
+
+@media only screen and  (max-width: 992px) {
+    header ul{
+        margin-left:50%; 
+    }
+
+    nav ul{
+        margin-left:15%;    
+    }
+
+    .row2-more{
+        position:absolute;
+        top:88%;
+    }
+
+    .row4-block1{
+        position:absolute;
+        left:18.3% ;
+        width:27.7%;
+    }
+
+    .row4-block1,.row4-block2,.row4-block3{
+        background-color: white;
+    }
+
+    .row4-block1-col2 span,.row4-block2-col2 span,.row4-block3-col2 span,
+    .row4-line,.row4-2015,.row4-vertical-line,.row4-more{
+        display:none;
+    }
+
+}
+
+ @media only screen and  (max-width: 762px) {
+    header ul{
+        margin-left:30%; 
+    }
+
+    nav ul{
+        margin-left:2%;    
+    }
+
+    .row1-text1{
+        position: absolute;
+        top:35%;
+    }
+
+    .row2-col1, .row2-col2{
+        max-width: 100%;
+        flex:100%;
+    }
+
+    .row2-title{
+        font-size:0.7em;
+    }
+
+    .row3-col1, .row3-col2{
+        max-width: 100%;
+        flex:100%;
+    }
+
+    .row6-col1, .row6-col2{
+        max-width: 100%;
+        flex:100%;
+    }
+
+    .row6-title{
+        font-size:0.7em;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    header ul{
+        margin-left:10%;
+    }
+
+    nav ul{
+        margin-left:50%;    
+    }
+
+    .row1-text1{
+        position: absolute;
+        top:35%;
+    }
+
+    .row3-title, .row3-text1-line1, .row3-text1-line2{
+        font-size:0.7em;
+    }
+} 
